@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .container{
+            display:flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+        .header{
+            box-shadow: 0 1px 3px 0 hsla(0, 0%, 0%, 0.2);
+            height: 50px;
+            border-bottom: 5px solid gray;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+
+        nav a{
+            text-decoration: none;
+            font : bold 1.5em serif;
+            color : black;
+        }
+        .item{
+            flex-direction: row;
+            text-decoration: none;
+            padding-top: 20px;
+        }
+
+        .item:hover{
+            border-bottom: 5px solid gray;
+        }
+
+        .content{
+            font : bold 3em sans serif;
+            height: 200px;
+            border-bottom: 5px solid gray;
+        }
+        .content p{
+            text-align: center;
+            padding:35px;
+        }
+
+        main{
+            height: 600px;
+            border-bottom: 5px solid gray;
+        }
+
+        #main_pic{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border : 5px solid gray;
+            margin-top: 30px;
+        }
+
+        main p{
+            text-align: center;
+            margin-top: 40px;
+            line-height: 30px;
+            font : bold 1.5em sans serif;
+        }
+
+      
+
+        .youtube{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin-top: 50px;
+            
+        }
+
+        .pic_1{
+            display : flex;
+            justify-content: space-around;
+        }
+
+        .pic_1_1{
+            border-top: 5px solid gray;
+            width: 400px;
+            height: 400px;
+            margin-top : 30px;
+        }
+
+        .pic p{
+            text-align: center;
+            font : bold 1.2em sans serif;
+            border-bottom: 5px solid gray;
+        }
+
+        .logo_img{
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+
+        .logo{
+            margin-top: 5px;
+            width: 50px;
+            height: 50px;
+        }
+
+        span{
+            color:gray;
+        }
+
+        
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#favorite">favorite</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+        <div class="content">
+            <p>예비개발자 <span>김진수</span>입니당</p>
+        </div>
+        <main>
+            <div style="text-align: center;">
+                <img id="main_pic" src="![진수](진수.jpeg)" alt="메인사진">
+            </div>
+            <p>안녕하세요 </br> 저는 아버지의 영향으로 <span>군대</span>에서</br> <span>백엔드개발자</span> 직업을 접하게 되었고,</br> <span>개발자</span>라는 매력을 느끼게되어 </br> <span>WECODE</span>에 오게 되었습니다.</br>열심히 할게여!</p>
+        </main>
+        <div class="pic">
+            <div>
+                <img id = "pork" src="![삽겹살](삽겹살.jpeg)" alt="삽겹살">
+            </div>
+            <p>고기를 엄청 사랑하고,</p>
+            <div class="pic_1">
+                <img class="pic_1_1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNfagW2201skKpeYq20EbIDvq2iOuefj6HxA&usqp=CAU" alt="풋살">
+                <img class="pic_1_1" src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/03/a0003930/img/basic/a0003930_main.jpg?20201021085749&q=80&rw=750&rh=536" alt="스키">
+            </div>
+            <p>운동도 정말 좋아합니다</p>
+        </div>
+        <div class="content">
+            <p>잘 부탁드립니다!!</p>
+        </div>
+        <div class="logo_img">
+            <div>
+                <a href="https://github.com/xchdtk"><img class="logo" src="![github](github.png)" alt="github"></a>
+                <a href="https://velog.io/@xchdtk"><img class="logo" src="![velog](velog.png)" alt="벨로그"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
