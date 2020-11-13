@@ -24,15 +24,11 @@
             text-decoration: none;
             font : bold 1.5em serif;
             color : black;
-        }
-        .item{
-            flex-direction: row;
-            text-decoration: none;
-            padding-top: 20px;
+            position: fixed;;
         }
 
-        .item:hover{
-            border-bottom: 5px solid gray;
+        a:hover{
+            border-bottom: 5px solid black;
         }
 
         .content{
@@ -67,10 +63,10 @@
 
       
 
-        .pork{
-            text-align: center;
-            width: 300px; height: 300px;
-            margin-top: 50px;
+        #pork{
+    
+            width: 400px; height: 400px;
+            padding-top: 50px;
             
         }
 
@@ -121,7 +117,7 @@
             <nav>
                 <ul>
                     <li><a href="#">home</a></li>
-                    <li><a href="#favorite">favorite</a></li>
+                    <li><a href="#pork">favorite</a></li>
                 </ul>
                 
             </nav>
@@ -137,7 +133,7 @@
         </main>
         <div class="pic">
             <div style="text-align: center;">
-                <img src="https://user-images.githubusercontent.com/62098808/99093241-915ea600-2615-11eb-9cdd-7af2d909312d.jpg" alt="삽겹살">
+                <img id ="pork"src="https://user-images.githubusercontent.com/62098808/99093241-915ea600-2615-11eb-9cdd-7af2d909312d.jpg" alt="삽겹살">
             </div>
             <p>고기를 엄청 사랑하고,</p>
             <div class="pic_1">
